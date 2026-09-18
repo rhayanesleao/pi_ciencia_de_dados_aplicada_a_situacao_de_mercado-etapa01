@@ -6,6 +6,8 @@
 **Integrantes do grupo:**
 - Arno Wendt Filho
 - David Calazans Tavares
+- Julyana Mendes
+- Paulo Augusto Silva Amorim
 - Rafaella Silva
 - Rhayane Bernardino Souza Leão
 

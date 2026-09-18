@@ -1,7 +1,7 @@
 # PI Ciência de Dados aplicada a Situações de Mercado — Etapa 1
 
 **Curso:** Banco de Dados — SENAC EAD
-**Disciplina:** Mineração de Dados
+**Disciplina:** Projeto Integrador - Ciência de Dados Aplicada a Situação de Mercado
 
 **Integrantes do grupo:**
 - Arno Wendt Filho

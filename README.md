@@ -1,7 +1,7 @@
 # Dashboard de decisão: Olist
 
 **Projeto Integrador IV | Etapa 2**
-Curso: Banco de Dados - SENAC EAD | Disciplina: Mineração de Dados
+Curso: Banco de Dados - SENAC EAD | Disciplina: Projeto Integrador - Ciência de Dados Aplicada a Situação de Mercado
 
 **Integrantes**
 - Arno Wendt Filho

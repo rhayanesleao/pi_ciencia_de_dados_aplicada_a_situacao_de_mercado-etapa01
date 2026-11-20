@@ -1,0 +1,31 @@
+{
+  "gerado_em": "2026-11-20 13:54:29",
+  "pedidos_total": 99441,
+  "pedidos_entregues": 96478,
+  "entregues_sem_data_de_entrega_removidos": 8,
+  "pedidos_validos": 96470,
+  "itens_na_fato": 110189,
+  "pedidos_na_fato": 96470,
+  "pedidos_sem_pagamento": 1,
+  "produtos_sem_categoria": 610,
+  "limite_outlier_prazo_dias_p98": 38.0,
+  "itens_marcados_outlier_prazo": 2141,
+  "percentual_pedidos_atrasados": 6.77,
+  "chaves_orfas": {
+    "id_tempo": 0,
+    "id_cliente": 0,
+    "id_produto": 0,
+    "id_vendedor": 0,
+    "id_pagamento": 0,
+    "id_entrega": 0
+  },
+  "linhas_por_tabela": {
+    "fato_pedidos": 110189,
+    "dim_tempo": 714,
+    "dim_cliente": 99441,
+    "dim_produto": 32951,
+    "dim_vendedor": 3095,
+    "dim_pagamento": 9,
+    "dim_entrega": 8
+  }
+}

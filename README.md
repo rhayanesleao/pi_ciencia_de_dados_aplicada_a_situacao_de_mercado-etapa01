@@ -11,7 +11,7 @@ Curso: Banco de Dados - SENAC EAD | Disciplina: Mineração de Dados
 - Rafaella Silva
 - Rhayane Bernardino Souza Leão
 
-**Dashboard publicado:** [abrir o app no Streamlit Cloud](URL_DO_APP)
+**Dashboard publicado:** [abrir o app no Streamlit Cloud](https://dashboard-olist-pi.streamlit.app).
 
 ---
 

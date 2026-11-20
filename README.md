@@ -149,7 +149,3 @@ tests/                      testes automatizados do ETL
 requirements.txt            dependências
 ```
 
-## Gestão do projeto
-
-As tarefas e a divisão de trabalho do grupo estão registradas na aba **Issues** e no quadro **Projects**
-deste repositório.

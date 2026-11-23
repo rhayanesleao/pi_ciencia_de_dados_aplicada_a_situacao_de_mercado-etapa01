@@ -11,7 +11,7 @@ Curso: Banco de Dados - SENAC EAD | Disciplina: Projeto Integrador - Ciência de
 - Rafaella Silva
 - Rhayane Bernardino Souza Leão
 
-**Dashboard publicado:** [abrir o app no Streamlit Cloud](https://dashboard-olist-pi.streamlit.app).
+**Dashboard publicado:** [abrir o app no Streamlit Cloud](https://dashboard-olist-pi.streamlit.app/).
 
 ---
 

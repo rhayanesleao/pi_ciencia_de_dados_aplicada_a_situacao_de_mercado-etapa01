@@ -273,11 +273,12 @@ with aba_log:
                        color_discrete_sequence=[COR])
     fig.update_layout(yaxis_title="Número de pedidos")
     fig.add_vline(x=kpi["prazo"], line_dash="dash", line_color=COR_ALERTA,
-                  annotation_text=f"média do recorte: {decimal(kpi['prazo'])} dias")
+                  annotation_text=f"média de todos os pedidos: {decimal(kpi['prazo'])} dias")
     st.plotly_chart(estilizar(fig))
     justificativa("a entrega é um dos principais fatores de satisfação em e-commerce. O gráfico apoia a "
                   "negociação com transportadoras, a escolha de centros de distribuição e a definição de "
-                  "prazos estimados mais realistas. O gráfico exclui os 2% de prazos mais longos (valores atípicos).")
+                  "prazos estimados mais realistas. O gráfico exclui os 2% de prazos mais longos (valores atípicos), "
+                  "mas a linha tracejada mostra a média de todos os pedidos.")
 
     col_a, col_b = st.columns(2)
     with col_a:

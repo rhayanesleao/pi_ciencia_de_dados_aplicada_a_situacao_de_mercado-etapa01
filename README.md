@@ -11,7 +11,7 @@ Curso: Banco de Dados - SENAC EAD | Disciplina: Projeto Integrador - Ciência de
 - Rafaella Silva
 - Rhayane Bernardino Souza Leão
 
-**Dashboard publicado:** [abrir o app no Streamlit Cloud](https://dashboard-olist-pi.streamlit.app/).
+**Dashboard publicado:** [abrir o app no Streamlit Cloud](https://dashboard-olist-pi.streamlit.app/)
 
 ---
 
@@ -109,6 +109,19 @@ O ETL está em [`etl/transformacao.py`](etl/transformacao.py) e também em noteb
 
 Cada gráfico traz uma nota explicando como ele apoia uma decisão de negócio.
 
+A comparação dos indicadores com a Etapa 1 e a explicação das diferenças estão em
+[`docs/validacao_indicadores.md`](docs/validacao_indicadores.md).
+
+## Principais achados
+
+Números do dashboard, sem filtros (96.470 pedidos entregues, receita de R$ 15,42 milhões):
+
+1. **A receita se concentra em São Paulo.** O estado de SP responde por 37,4% da receita por estado do cliente, seguido por RJ (13,3%) e MG (11,8%). Isso indica onde priorizar estoque e centros de distribuição.
+2. **Poucas categorias lideram as vendas.** Beleza e saúde é a categoria líder, com 9,2% da receita, seguida por relógios e presentes e por cama, mesa e banho. Ajuda a decidir onde investir em estoque e campanhas.
+3. **Atrasos são raros no geral, mas altos em alguns estados.** Cerca de 6,8% dos pedidos chegam atrasados e o prazo médio é de 12,1 dias, mas Alagoas chega a 21,4% de atrasos (entre os estados com ao menos 50 pedidos). É o ponto de partida para renegociar prazos com transportadoras nessas regiões.
+4. **O cartão de crédito domina o pagamento.** 75,5% dos pedidos usam cartão de crédito e 19,9% usam boleto, o que reforça a importância de um checkout bem ajustado para parcelamento no cartão.
+5. **Novembro de 2017 foi o pico de vendas.** A maior receita mensal foi de R$ 1.153.229,37, no mês da Black Friday, o que sugere planejar estoque e logística para datas promocionais.
+
 ## Como executar
 
 ```bash
@@ -146,6 +159,5 @@ data/                       arquivos parquet do modelo estrela e relatório de q
 notebooks/                  Etapa 1 (análise exploratória) e ETL no Colab
 docs/dicionario_de_dados.md dicionário de dados
 tests/                      testes automatizados do ETL
+resultado_testes.md         registro da execucao dos testes
 requirements.txt            dependências
-```
-
